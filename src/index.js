@@ -1,3 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
-  // your solution
+  var arrStr = str.split('');
+  if (arrStr.length % 2 !== 0) {
+  	return false;
+  }
 }
